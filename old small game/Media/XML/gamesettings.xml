@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<!-- Game settings -->
+
+<settings>
+	<game name="Command the Coalition of Champions" />
+   <renderer width="1024" height="768"/>
+
+   <!-- sprites -->
+   
+   <sprites path="Media\Images">
+     <sprite name="tile" file="tile" ext ="png" frames="30"/>
+	 <sprite name="cursor" file="cursor" ext ="png" frames="3"/>
+     <sprite name="turret" file="turret.png"/>
+     <sprite name="hero" file="heroIdle_" ext="png" frames="4"/>
+     <sprite name="enemy" file="slime_enemy_" ext="png" frames="4"/>
+     <sprite name="greenline" file="greenline.png"/>
+     <sprite name="bullet" file="bullet.png"/>
+     <sprite name="bullet2" file="bullet2.png"/>
+     <sprite name="smoke" file="graysmoke.png"/>
+     <sprite name="spark" file="spark.png"/>
+     <sprite name="selection" file="selection.png"/>
+     <sprite name="loss" file="lossscreen.png"/>
+     <sprite name="win" file="winscreen.png"/>
+     <sprite name="mainmenu" file="mainmenu.png"/>
+     <sprite name="Hero_Walk" file="Player_Walk_Axe_Defence4_" ext="png" frames="4"/>
+     <sprite name="Hero_Attack" file="heroAttack_" ext="png" frames="4"/>
+     <sprite name="Hero_Death" file="heroDeath_" ext="png" frames="4"/>
+     <sprite name="enemydeath" file="slimeDeath_" ext="png" frames="4"/>
+     <sprite name="enemyattack" file="slimeAttack_" ext="png" frames="8"/>
+     <sprite name="menu1" file="menu1.png"/>
+     <sprite name="menu2" file="menu2.png"/>
+     <sprite name="menu3" file="menu3.png"/>
+     <sprite name="menu4" file="menu4.png"/>
+     <sprite name="menu5" file="menu5.png"/>
+     <sprite name="menu6" file="menu6.png"/>
+     <sprite name="menu7" file="menu7.png"/>
+     <sprite name="menu8" file="menu8.png"/>
+     <sprite name="menu9" file="menu9.png"/>
+     <sprite name="menu10" file="menu10.png"/>
+     <sprite name="menu11" file="menu11.png"/>
+     <sprite name="menu12" file="menu12.png"/>
+     <sprite name="menu13" file="menu13.png"/>
+     <sprite name="menu14" file="menu14.png"/>
+     <sprite name="menu15" file="menu15.png"/>
+     <sprite name="menu16" file="menu16.png"/>
+     <sprite name="slash" file="slash.png"/>
+   </sprites>
+
+   <!-- sound -->
+  
+   <sounds  path="Media\Sounds">
+     <sound file="44magnum.wav" instances="8"/>
+     <sound file="ricochet.wav" instances="8"/>
+     <sound file="ow.wav" instances="8"/>
+     <sound file="clang.wav" instances="8"/>
+     <sound file="slimehit.wav" instances="8"/>
+     <sound file="axehit.wav" instances="8"/>
+     <sound file="menu_move.wav" instances="8"/>
+     <sound file="menu_select.wav" instances="8"/>
+     <sound file="loss_sound.wav" instances="8"/>
+     <sound file="win_sound.wav" instances="8"/>
+   </sounds>
+</settings>
