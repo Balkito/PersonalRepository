@@ -1,2 +1,2 @@
-Final Project
-Copy your executable file from Program 5\x64\Release and your Media folder into this folder before the start of class on 12/3/2020. Check that your program runs when you double-click on the executable.
+A small Rube Goldberg machine made with the Box2D physics engine. Start it by pressing Space.
+Box2D has weird issues and it may run improperly on some machines.
