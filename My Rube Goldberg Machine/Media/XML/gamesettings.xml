@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+
+<!-- Game settings -->
+
+<settings>
+  <game name="Rube Goldberg Machine" />
+  <renderer width="1024" height="768" />
+
+  <!-- sprites -->
+
+  <sprites path="Media\Images">
+    <sprite name="background" file="background.png"/>
+    <sprite name="ball" file="ball.png"/>
+    <sprite name="button" file="button.png"/>
+    <sprite name="shelf" file="shelf_sprite.png"/>
+    <sprite name="weight" file="weight.png"/>
+    <sprite name="bell" file="bell.png"/>
+    <sprite name="eye" file="eye.png"/>
+    <sprite name="bottle" file="bottle.png"/>
+    <sprite name="pizza" file="pizza.png"/>
+    <sprite name="hammer" file="hammer.png"/>
+    <sprite name="ramp" file="ramp.png"/>
+    <sprite name="wall" file="wall.png"/>
+    <sprite name="pressure" file="pressure_plate.png"/>
+    <sprite name="gun" file="gun.png"/>
+    <sprite name="glass" file="glass.png"/>
+  </sprites>
+
+  <!-- sound -->
+
+  <sounds path="Media\Sounds">
+    <sound file="yay.wav" instances="1"/>
+    <sound file="bonk.wav" instances="4"/>
+    <sound file="buzz.wav" instances="1"/>
+    <sound file="restart.wav" instances="1"/>
+    <sound file="that's_amore.wav" instances="1"/>
+    <sound file="ouch.wav" instances="1"/>
+    <sound file="reload.wav" instances="1"/>
+    <sound file="glass.wav" instances="1"/>
+    <sound file="shot.wav" instances="1"/>
+    <sound file="bell.wav" instances="1"/>
+  </sounds>
+</settings>
